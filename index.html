@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Overview - Smart E-Commerce Platform</title>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          background: #f8f9fa;
+          margin: 0;
+          padding: 0;
+        }
+        .container {
+          width: 80%;
+          margin: 30px auto;
+          background: #fff;
+          padding: 25px;
+          border-radius: 10px;
+          box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+          text-align: center;
+          color: #2c3e50;
+          margin-bottom: 20px;
+        }
+        h2 {
+          color: #34495e;
+          margin-top: 20px;
+          border-bottom: 2px solid #ddd;
+          padding-bottom: 5px;
+        }
+        ul {
+          list-style: none;
+          padding: 0;
+        }
+        ul li::before {
+          content: "✔ ";
+          color: #27ae60;
+        }
+        .section {
+          margin-bottom: 20px;
+        }
+        .highlight {
+          background: #ecf0f1;
+          padding: 10px;
+          border-radius: 6px;
+          margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔹 Smart E-Commerce Platform with Recommendation Engine</h1>
+
+        <div class="section">
+            <h2>Description</h2>
+            <p>
+                Online shop with authentication, cart, payments, and ML-powered product suggestions.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Folder/File Structure</h2>
+            <div class="highlight">
+                <strong>Controllers:</strong>
+                <ul>
+                    <li>HomeController (Homepage, Categories)</li>
+                    <li>AccountController (Login, Register, Profile)</li>
+                    <li>ProductController (Product listing, Details, Search)</li>
+                    <li>CartController (Add/Remove items, Checkout)</li>
+                    <li>OrderController (Order history, Payments)</li>
+                </ul>
+            </div>
+
+            <div class="highlight">
+                <strong>Models:</strong>
+                <ul>
+                    <li>User</li>
+                    <li>Product</li>
+                    <li>Category</li>
+                    <li>Cart</li>
+                    <li>Order</li>
+                    <li>OrderItem</li>
+                    <li>Payment</li>
+                </ul>
+            </div>
+
+            <div class="highlight">
+                <strong>Views:</strong>
+                <ul>
+                    <li>Home/Index.cshtml</li>
+                    <li>Product/Details.cshtml</li>
+                    <li>Cart/Index.cshtml</li>
+                    <li>Order/History.cshtml</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Database Tables</h2>
+            <div class="highlight">
+                <ul>
+                    <li>Users</li>
+                    <li>Products</li>
+                    <li>Categories</li>
+                    <li>Carts</li>
+                    <li>Orders</li>
+                    <li>OrderItems</li>
+                    <li>Payments</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
